@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Change postgresql port number in Galaxy Docker image
-date: 2015-05-28T14:06:00
+date: 2015-06-02T18:06:00
 ---
 
 Galaxy Docker image default postgresql port is 5432.
