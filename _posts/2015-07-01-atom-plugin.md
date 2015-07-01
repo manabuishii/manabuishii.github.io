@@ -1,5 +1,5 @@
 layout: post
-title: Setup UCSC Genome Browser
+title: Atom tree-view-filter plugin
 date: 2015-07-01T14:21:00
 ---
 
