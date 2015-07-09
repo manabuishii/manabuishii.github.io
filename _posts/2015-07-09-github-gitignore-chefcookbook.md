@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Github Chef cookbook .gitignore
+title: Github Chef  Cookbook friendly .gitignore
 date: 2015-07-09T14:25:56
 ---
 
