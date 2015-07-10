@@ -1,11 +1,12 @@
 ---
 layout: post
 title: kitchen init command install test-kitchen new version
+date: 2015-07-10T15:25:56
 ---
 
 # kitchen init install test-kitchen new version ?
 
-I use kitchen 1.3.0
+I use kitchen 1.3.1
 
 Today(2015-07-10) I typed following command
 ```
