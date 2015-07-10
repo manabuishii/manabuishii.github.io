@@ -6,7 +6,7 @@ date: 2015-07-08T11:21:00
 # Atom plugin
 
 Update
-2015-07-08T13:35:00
+2015-07-10T11:52:19
 
 ## Cursor
 
@@ -42,6 +42,9 @@ Tabs and Spaces Convert
 
 multi-line and multiple selections align
 
+### [date](https://atom.io/packages/date)
+
+Insert Date , Time , Date and Time
 
 ## Autocomplete
 
