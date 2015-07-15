@@ -128,6 +128,8 @@ There are some reason.
 
 ## header
 
+### Cache-Control header
+
 Almost case squid does not cache is host does not want to cache there contents.
 
 In my case
