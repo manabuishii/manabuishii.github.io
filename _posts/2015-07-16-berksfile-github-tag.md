@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Squid in docker
+title: Berksfile specify GitHub tag
 date: 2015-07-16T15:25:56
 ---
 
