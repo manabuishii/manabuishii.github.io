@@ -21,6 +21,12 @@ On updated image some environment variables is not used.
 
 You can write those values to your configuration file.
 
+## ORDER IS IMPORTANT (2016-07-28 updated)
+
+***maximum_object_size*** must be put before ***cache_dir***
+
+* [squid - Squid3 not caching larger files - Server Fault](http://serverfault.com/questions/596890/squid3-not-caching-larger-files)
+
 ### maximum_object_size
 
 maximum object size set to 100 MB
