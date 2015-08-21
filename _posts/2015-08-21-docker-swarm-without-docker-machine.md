@@ -94,7 +94,7 @@ to=tcp
 time="2015-08-10T06:30:08Z" level=error msg="Get http://swarmNode-IP:2375/v1.15
 /info: dial tcp swarmNode-IP:2375: no route to host. Are you trying to connect
 to a TLS-enabled daemon without TLS?"
-time="2015-08-20T06:31:47Z" level=error msg="Get http://swarmManager-IP:2375/v1.15
+time="2015-08-10T06:31:47Z" level=error msg="Get http://swarmManager-IP:2375/v1.15
 /info: dial tcp swarmManager-IP:2375: no route to host. Are you trying to connect
 to a TLS-enabled daemon without TLS?"
 ```
