@@ -98,3 +98,18 @@ time="2015-08-10T06:31:47Z" level=error msg="Get http://swarmManager-IP:2375/v1.
 /info: dial tcp swarmManager-IP:2375: no route to host. Are you trying to connect
 to a TLS-enabled daemon without TLS?"
 ```
+
+
+# Check with hello world container
+
+## Run on Swarm
+
+```
+docker -H tcp://swarmManager-IP:12375 run hello-world
+```
+
+## Run on local
+
+```
+docker run hello-world
+```
