@@ -3,6 +3,15 @@ layout: post
 title: Setup Docker Private Registry
 date: 2015-08-21T14:25:56
 ---
+# Software and container Version
+Update 2015-08-25
+
+| Software(or container)| Version |
+| ----- |:----:|
+| docker | 1.8.1 |
+| docker registry | 2 (2.1.1)|
+
+
 
 # Run registry container
 
@@ -104,11 +113,22 @@ With CIDR setting, this style can work without port number.
 ```
 
 ### CIDR and port
+
+Update: 2015-08-25 following is not work
+
 Of course can setup port number
 
 ```
 --insecure-registry 192.168.0.0/16:5000
 ```
+
+This is working no port number
+
+```
+--insecure-registry 192.168.0.0/16
+```
+
+
 
 ### host and port
 
