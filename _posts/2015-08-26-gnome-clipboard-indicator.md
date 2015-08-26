@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Clipboard Indicator
+title: Gnome Clipboard Manager
 date: 2015-08-26T13:43:56
 ---
 # Gnome Clipboard Manager
