@@ -49,3 +49,12 @@ vagrant_omnibus  yum
 **vagrant_omnibus** has chef packages.
 
 **yum** has yum packages.
+
+
+# Update 2016-05-17
+
+* [Setting Up Your Private Supermarket Server | Chef Blog](https://www.chef.io/blog/2015/04/21/setting-up-your-private-supermarket-server/)
+
+See ***Test kitchen is slow because it has to download/install the Chef Omnibus client package every time***
+
+* [knife (zero) bootstrapで入れるChef Clientのバージョンを変える(test-kitchenも) - Qiita](http://qiita.com/marcy-terui/items/d3e5528a65280dc86f07)
