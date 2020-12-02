@@ -5,6 +5,9 @@ date: 2020-12-02T13:43:56
 ---
 # CWL basecommand でサブコマンドがあるツールで起こりがちなこと。--validateが通っているのにエラー
 
+この記事は、[Common Workflow Language \(CWL\) Advent Calendar 2020 \- Adventar](https://adventar.org/calendars/5340) の3日目と、
+[Common Workflow Language \(CWL\) Advent Calendar 2019 \- Qiita](https://qiita.com/advent-calendar/2019/cwl) の11日目の記事になります。
+
 `bamtools sort` とか、 `picard BamIndexStats`
 
 などを、CWLで作ったときに、
