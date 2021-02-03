@@ -18,7 +18,7 @@ githubのアドレスを書いたときなどに、rawではないデータのUR
 
 - この前まで動いていたCWLが動かない。
 - 昨日までvalidateがとおっていたのに、通らない
-- うーん、`ブラウザでgithub`のコードや履歴見ても問題がない
+- うーん、 `ブラウザでgithub` のコードや履歴見ても問題がない
 
 だいたいこのような場合　CWLとして指定しているURLがgithubの普通のHTMLページで
 rawではないところを指定している。
@@ -36,7 +36,8 @@ rawのURL渡していない
 HTMLが返るURLを渡している
 
 ```
-cwltool --validate https://github.com/pitagora-network/DAT2-cwl/blob/develop/workflow/meta16s-seq/meta16s-seq.demo.cwl
+cwltool --validate \
+https://github.com/pitagora-network/DAT2-cwl/blob/develop/workflow/meta16s-seq/meta16s-seq.demo.cwl
 ```
 
 ## うまくvalidateが通る例
@@ -44,5 +45,6 @@ cwltool --validate https://github.com/pitagora-network/DAT2-cwl/blob/develop/wor
 rawのURL渡している
 
 ```
-cwltool --validate https://github.com/pitagora-network/DAT2-cwl/raw/develop/workflow/meta16s-seq/meta16s-seq.demo.cwl
+cwltool --validate \
+https://github.com/pitagora-network/DAT2-cwl/raw/develop/workflow/meta16s-seq/meta16s-seq.demo.cwl
 ```
